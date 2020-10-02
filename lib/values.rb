@@ -12,6 +12,6 @@ require 'pry'
 def get_the_values(groceries) 
   #code your solution here! 
 category =groceries.keys 
-  items = groceries.values
-  puts items 
+  items = groceries.values 
+  items 
   end   
