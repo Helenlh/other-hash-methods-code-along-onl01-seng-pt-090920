@@ -11,8 +11,8 @@ require 'pry'
 
 
 def get_the_min(groceries)
-  #code your solution here!
-  groceries.values 
- groceries.sort 
- groceries.min 
+  #code your solution here! 
+  category = groceries.keys
+  items = groceries.values.flatten 
+  items.sort 
 end 
