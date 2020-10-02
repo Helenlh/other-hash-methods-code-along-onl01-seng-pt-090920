@@ -15,6 +15,6 @@ def get_the_min(groceries)
   category = groceries.keys
   items = groceries.values.flatten 
   items.sort 
-  items.min 
+  items.min  
 end  
 
