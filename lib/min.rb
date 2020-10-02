@@ -14,5 +14,5 @@ def get_the_min(groceries)
   #code your solution here!
   groceries.values 
  groceries.-sort 
- groceries.min 
+ puts groceries.min 
 end 
