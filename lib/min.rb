@@ -16,5 +16,5 @@ def get_the_min(groceries)
   items = groceries.values.flatten 
   items.sort 
   items.min 
-end 
+end  
 
