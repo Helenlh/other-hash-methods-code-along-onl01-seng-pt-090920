@@ -10,8 +10,6 @@ require 'pry'
 
 def get_the_values(groceries) 
   #code your solution here!
-  groceries.flatten 
-groceries.values   
-groceries.to_a 
- 
+  groceries.values 
+  alphabetical_order.min 
 end  
